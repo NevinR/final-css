@@ -1,3 +1,6 @@
+@media screen and (max-width: 2560px){
+	
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -197,4 +200,48 @@ footer h2{
 } 
 footer #form-group{
 	text-align: right;
+}
+
+}
+
+@media screen  and (max-width: 700px) {
+	header{
+		width: 500px;
+		text-align: center;
+	}
+	h1{
+		font-size: 20px;
+	}
+	ul{
+		display: flex;
+	}
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+	#heading{
+		width: 500px;
+	}
+	#heading h1{
+		font-size: 50px;
+	}
+	.container{
+		margin: 20px;
+	}
+	#about{
+		padding: 90px;
+		width: 500px;
+	}
+	h3{
+		width:500px;
+	}
+	#skills{
+		width: 500px;
+		display: flex;
+		flex-direction: column;
+	}
+	#assignment{
+		width: 500px;
+	}
+	
 }
